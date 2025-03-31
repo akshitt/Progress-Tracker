@@ -46,11 +46,20 @@ body {
   font-weight: bold;
 }
 
+.week-row th {
+  width: 140px;       /* Increase column width */
+  height: 30px;       /* Decrease header height */
+  font-size: 0.9em;   /* Make text smaller */
+  vertical-align: middle;
+  /* Adjust padding as desired */
+  padding: 4px;
+}
+
 /* Grade display */
 .grade {
   text-align: center;
-  margin-top: 10px;
-  font-size: 2em;
+  margin-top: 5px;
+  font-size: 1.2em;
   font-weight: bold;
   color: #333;
 }
