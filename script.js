@@ -51,8 +51,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const weekEnd = new Date(weekStart);
     weekEnd.setDate(weekStart.getDate() + 6);
     const th = document.createElement('th');
-    th.textContent = `Week ${w + 1} (${formatDate(weekStart)} - ${formatDate(weekEnd)})`;
+    th.innerHTML = `<strong>Week ${w + 1}</strong> (${formatDate(weekStart)} - ${formatDate(weekEnd)})`;
     headerRow.appendChild(th);
+    headerRow.classList.add('week-row');
   }
   trackerTable.appendChild(headerRow);
 
