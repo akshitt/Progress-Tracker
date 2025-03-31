@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function updateGrade() {
     const score = calculateGrade();
-    gradeEl.textContent = `Your Consistency Score: ${score}`;
+    gradeEl.textContent = `Consistency: ${score}/100`;
   }
   updateGrade();
 });
