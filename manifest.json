@@ -1,0 +1,8 @@
+{
+  "short_name": "ExamTracker",
+  "name": "Exam Tracker Progressive Web App",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f5f5dc",
+  "theme_color": "#4CAF50"
+}
