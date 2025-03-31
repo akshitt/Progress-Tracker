@@ -8,8 +8,8 @@ body {
 
 .container {
   margin: 20px auto;
-  max-width: 800px;
-  background: rgba(245, 245, 220, 0.8);
+  max-width: 700px;
+  background: rgba(191, 165, 96, 0.8);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -18,7 +18,7 @@ body {
 /* Countdown Timer */
 .countdown {
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
   font-weight: bold;
   margin-bottom: 20px;
   color: #333;
@@ -36,7 +36,7 @@ body {
   text-align: center;
   font-size: 1.2em;
   border: 1px solid #ccc;
-  border-radius: 8px;
+  border-radius: 3px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   background-color: #fef8ec;
 }
